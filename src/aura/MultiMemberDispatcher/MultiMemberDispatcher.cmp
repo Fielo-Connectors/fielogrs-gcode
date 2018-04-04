@@ -1,0 +1,7 @@
+<aura:component implements="forceCommunity:availableForAllPageTypes" controller="FieloGRS_MultiMemberDispatcherCtrl">
+    <aura:attribute name="member" type="FieloPLT__Member__c"/>    
+	<aura:handler event="FieloPLT:UpdateMemberEvent" action="{!c.updateMember}"/>
+    
+    <!-- This is a Dispatcher Component, it listen and relay events -->
+    
+</aura:component>
