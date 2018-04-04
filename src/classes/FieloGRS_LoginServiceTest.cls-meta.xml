@@ -1,20 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ApexClass xmlns="http://soap.sforce.com/2006/04/metadata">
-    <apiVersion>41.0</apiVersion>
+    <apiVersion>40.0</apiVersion>
     <packageVersions>
         <majorNumber>1</majorNumber>
-        <minorNumber>5</minorNumber>
+        <minorNumber>7</minorNumber>
         <namespace>FieloGRS</namespace>
     </packageVersions>
     <packageVersions>
         <majorNumber>2</majorNumber>
-        <minorNumber>41</minorNumber>
+        <minorNumber>50</minorNumber>
         <namespace>FieloPLT</namespace>
-    </packageVersions>
-    <packageVersions>
-        <majorNumber>1</majorNumber>
-        <minorNumber>1</minorNumber>
-        <namespace>gcode_glc</namespace>
     </packageVersions>
     <status>Active</status>
 </ApexClass>
