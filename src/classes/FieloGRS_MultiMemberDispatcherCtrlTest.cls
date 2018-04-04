@@ -42,7 +42,7 @@ public class FieloGRS_MultiMemberDispatcherCtrlTest {
 
 	public static testMethod void testSetCurrentMember() {
 		Test.startTest();
-		FieloPLT__Member__c member = FieloGRS_MultiMemberEventDispatcherCtrl.setCurrentMember((FieloPLT__Member__c)[SELECT Id, Name FROM FieloPLT__Member__c LIMIT 1]);
+		FieloPLT__Member__c member = FieloGRS_MultiMemberDispatcherCtrl.setCurrentMember((FieloPLT__Member__c)[SELECT Id, Name FROM FieloPLT__Member__c LIMIT 1]);
 		Test.stopTest();
 	}
 }
