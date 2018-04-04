@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Package xmlns="http://soap.sforce.com/2006/04/metadata">
+    <types>
+        <members>FieloGRS_LoginService</members>
+        <members>FieloGRS_LoginServiceTest</members>
+        <members>FieloGRS_MultiMemberDispatcherCtrl</members>
+        <members>FieloGRS_MultiMemberDispatcherCtrlTest</members>
+        <name>ApexClass</name>
+    </types>
+    <types>
+        <members>MultiMemberDispatcher</members>
+        <name>AuraDefinitionBundle</name>
+    </types>
+    <version>40.0</version>
+</Package>
